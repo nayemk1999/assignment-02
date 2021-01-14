@@ -1,0 +1,104 @@
+.menu-bar>li>a{
+    color: #3B3B3B !important;
+    font-weight: bold;
+}
+.bannar-content{
+    background-color: white;
+}
+.bannar-content h1{
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+}
+h3{
+    color: #363958;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;  
+}
+h5{
+    color: #363958;
+    font-family: 'Anton', sans-serif;
+    padding: 5px;
+    
+}
+span{ 
+    color:#FABE4C;
+    font-family: 'Anton', sans-serif;
+}
+.noboni-card{
+    border: 0 !important;
+}
+.noboni-card img{
+    background-color: #F1F1F1 !important;
+    height: 400px;
+    
+    padding: 30px;
+    border-radius: 15px;
+}
+
+p{padding: 5px;}
+.bannar-content img{
+    width: 82%;
+}
+
+.button-bg{
+    background-color: #90AB29 !important;
+    padding:15px 30px !important;
+    color: white !important;
+    font-size: 30px;
+    border: 0 !important;
+    border-radius: 10px !important;
+}
+.service-express img{
+    width: 80px;
+}
+.subscribe{
+    background-color: #FCEAE8;
+    padding: 10px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.rows {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    box-shadow: 8px 8px darkgrey;
+  }
+  
+  /* Responsive layout -Max-Width:800px */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout -Max-width:600px*/
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .get-touch h1{
+    font-family: 'Anton', sans-serif;
+  }
